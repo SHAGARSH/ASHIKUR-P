@@ -1,0 +1,240 @@
+
+/* Banner **/
+
+@media(min-width:320px) and (max-width:800px){
+
+    .navbar{
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+        background: #fff;
+    }
+    #Banner .row span {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    #Banner .row h1 {
+        font-size: 34px;
+    }
+    #Banner .row p {
+        font-size: 20px;
+        line-height: 180%;
+    }
+    #Banner .row  img{
+        max-width: 100%;
+    }
+
+    #Banner .row .Follow span {
+        font-size: 16px;
+        padding-right: 0px
+    }
+    #Banner .row .botton a {
+        font-weight: 500;
+        font-size: 10px;
+    }
+    #Banner .row .botton{
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        margin-left: 10px;
+    }
+    #Banner .row .botton2 a{
+        font-weight: 500;
+        font-size: 10px;
+
+    }
+    #Banner .row .botton2{
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+}    
+/* Banner End **/
+
+
+/** Experience*/
+
+@media(min-width:320px) and (max-width:800px){
+    .timeline{
+        border-left:2px dashed #7a7a7a ;
+        max-width: 90%;
+        margin: auto;
+        padding-left: 35px;
+    }
+
+    #Experience .timeline .yera h4 {
+        padding-bottom: 0px;
+    }
+    #Experience .timeline .yera {
+        border-right: none;
+        padding: 20px 12px;
+        padding-bottom: 20px;
+    }
+    #Experience .timeline.yellow .yera {
+        padding-bottom: 20px;
+   }
+   #Experience .timeline .yera::before {
+    right: auto;
+    left: 0;
+   }
+   
+    #Experience .timeline .yera::before {
+    right: auto;
+    left: -45px;
+    } 
+
+    #Experience .timeline .yera::after {
+    right: auto;
+    left: -34px;
+    }
+
+    #Experience .hadding h2 {
+        font-size: 24px;
+    }
+    #Experience .timeline .yera h4{
+        font-size: 15px
+    }
+    #Experience .timeline .yera p{
+        font-size: 12px
+    }
+    #Experience .timeline .taitle h4 {
+        font-size: 15px
+    }
+    #Experience .timeline .taitle p{
+        font-size: 12px;
+    }
+
+}
+  
+/**Experience End*/
+
+
+/* About**/
+
+@media(min-width:320px) and (max-width:800px){
+
+    #About img {
+        max-width: 100%;
+    }
+    #About .see h2 {
+        font-size: 24px;
+}
+#About .see p {
+    font-size: 12px;
+    line-height: 171%;
+    color: #4d4d4d;
+}
+#About .see a span {
+   
+    border-radius: 15px;
+    width: 121px;
+    height: 47px;
+}
+#About .see a {
+    font-size: 14px;
+    padding-top: 36px;
+}
+#About img{
+    max-width: 100%;
+    padding-top: 0px;
+    transform: scalex(-1);
+}
+
+}
+
+/* About End**/
+
+/** BANNER*/
+
+@media(min-width:320px) and (max-width:800px){
+
+    #card .row .card-cnt1 {
+        border-radius: 12px;
+        width: 343px;
+        height: 300px;
+        text-align: start;
+    }
+    #card .row .card-cnt1 img{
+        margin-left: 50px;
+    }
+    #card .row .card-cnt1 h5{
+        text-align: start;
+        margin-left: 16px;
+    }
+    #card .row .card-cnt1 p{
+        text-align: start;
+        margin-left: 16px;
+    }
+    
+
+}
+
+/* BANNER END**/
+
+/*Branding**/
+
+@media(min-width:320px) and (max-width:800px){
+
+    #Branding h5 {
+        
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    #Branding p {
+
+        
+        font-size: 14px;
+        line-height: 180%;
+      
+    }
+    #Branding a {
+      
+        font-weight: 600;
+        font-size: 14px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+/*Branding End**/
+
+
+/**FOOTER */
+
+@media(min-width:320px) and (max-width:800px){
+    #footer .middle-contner h5 {
+        font-size: 18px;
+        padding-top: 17px;
+       
+    }
+    #footer .middle-contner p{
+        font-size: 13px;
+        padding-bottom: 31px;
+    }
+    #footer .END-cnt a{
+        font-size: 10px;
+    }
+    #footer .row .call span{
+        font-size: 12px;
+    }
+    #footer .row .call a{
+        font-size: 13px;
+        padding-right: 20px;
+        
+    }
+    #footer .row .call{
+        margin-bottom: 40px;
+        margin-top: -20px;
+
+    }
+
+
+
+
+
+}
+/**FOOTER END*/
+
